@@ -1,0 +1,19 @@
+<!-- Arquivo: src/views/ClientesPage.vue -->
+<template>
+    <div>
+      <h2>Cadastro de Clientes</h2>
+  
+      <!-- Formulário de Cadastro de Clientes -->
+      <CadastroClienteForm />
+  
+      <!-- Lista de Clientes -->
+      <ListaClientes />
+  
+      <!-- Mensagem para Caso Não Haja Clientes -->
+      <NenhumCliente />
+    </div>
+  </template>
+  
+  <script src="./ClientesPageScript.js"></script>
+  <style src="./ClientesPageStyle.scss" scoped></style>
+  
