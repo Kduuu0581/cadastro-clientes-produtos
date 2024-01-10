@@ -12,4 +12,4 @@
 </template>
 
 <script src="./ClientesPageScript.js"></script>
-<style src="./ClientesPageStyle.scss" scoped></style>
+<!-- <style src="./ClientesPageStyle.scss" scoped></style> -->

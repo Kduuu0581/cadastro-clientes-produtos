@@ -1,6 +1,6 @@
 // Arquivo: src/router/index.js
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import * as Vue from 'vue';
+import * as VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import ClientesPage from '../views/ClientesPage.vue';
 
