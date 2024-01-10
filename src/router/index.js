@@ -1,13 +1,20 @@
+// Arquivo: src/router/index.js
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import ClientesPage from '@/views/ClientesPage.vue';
+import Home from '../views/Home.vue';
+import ClientesPage from '../views/ClientesPage.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
+    path: '/',
+    name: 'Home',
+    component: Home,
+  },
+  {
     path: '/clientes',
-    name: 'ClientesPage',
+    name: 'Clientes',
     component: ClientesPage,
   },
 ];

@@ -1,0 +1,18 @@
+/* Arquivo: src/components/ListaClientesStyle.scss */
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Estilos adicionais conforme necessário */
+  

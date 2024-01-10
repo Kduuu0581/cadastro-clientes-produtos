@@ -1,9 +1,39 @@
-// Arquivo: src/views/ClientesPageStyle.scss
+/* Arquivo: src/views/ClientesPageStyle.scss */
 /* Estilos específicos para a página de clientes */
 
 h2 {
-    color: #333;
-  }
-  
-  /* Adicione estilos conforme necessário */
-  
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.clientes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cliente-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+  max-width: 400px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cliente-nome {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cliente-status {
+  color: #28a745; /* Verde para clientes ativos */
+}
+
+.cliente-inativo {
+  color: #dc3545; /* Vermelho para clientes inativos */
+}
+
+/* Adicione mais estilos conforme necessário */
