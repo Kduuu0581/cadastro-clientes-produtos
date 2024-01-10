@@ -1,10 +1,7 @@
-// Arquivo: src/router/index.js
-import * as Vue from 'vue';
-import * as VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
-import ClientesPage from '../views/ClientesPage.vue';
-
-Vue.use(VueRouter);
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from '@/views/Home.vue';
+import ClientesPage from '@/views/ClientesPage.vue';
+import ProdutosPage from '@/views/ProdutosPage.vue';
 
 const routes = [
   {
@@ -14,12 +11,18 @@ const routes = [
   },
   {
     path: '/clientes',
-    name: 'Clientes',
+    name: 'ClientesPage',
     component: ClientesPage,
+  },
+  {
+    path: '/produtos',
+    name: 'ProdutosPage',
+    component: ProdutosPage,
   },
 ];
 
-const router = new VueRouter({
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
   routes,
 });
 
