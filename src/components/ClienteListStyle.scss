@@ -1,0 +1,22 @@
+/* Arquivo: src/components/ClienteListStyle.scss */
+/* Estilos específicos para o componente ClienteList */
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  

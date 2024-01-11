@@ -8,6 +8,7 @@
 
     <!-- Lista de Clientes -->
     <ListaClientes />
+    <ClienteList :clientes="clientes" />
   </div>
 </template>
 

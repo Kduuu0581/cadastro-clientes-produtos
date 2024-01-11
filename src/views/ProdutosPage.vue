@@ -10,6 +10,7 @@
     <div class="lista-produtos">
       <h2>Lista de Produtos</h2>
       <ProdutoCard v-for="produto in produtos" :key="produto.id" :produto="produto" />
+      <ProdutoList :produtos="produtos" />
     </div>
 
     <!-- Link para a tela de associação -->
