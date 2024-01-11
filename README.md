@@ -5,7 +5,7 @@
 Este projeto consiste em uma aplicação de cadastro simples para clientes e produtos, com a capacidade de associar produtos a clientes. A aplicação foi desenvolvida usando o framework Vue.js para o front-end.
 
 ## Decisões e Organização do Código
-  O desenvolvimento do projeto de Cadastro de Clientes e Produtos foi uma experiência colaborativa e enriquecedora. Utilizei o framework Vue.js para criar uma aplicação front-end que permite cadastrar clientes, associar produtos a esses clientes e listar produtos e clientes cadastrados.
+  O desenvolvimento do projeto de Cadastro de Clientes e Produtos foi uma experiência enriquecedora. Utilizei o framework Vue.js para criar uma aplicação front-end que permite cadastrar clientes, associar produtos a esses clientes e listar produtos e clientes cadastrados.
 
 Organizei o código de forma modular, utilizando a estrutura de diretórios padrão do Vue.js. Componentes Vue reutilizáveis foram criados para garantir uma arquitetura escalável e manutenível. Além disso, implementei testes unitários utilizando as bibliotecas Mocha e Chai, assegurando a integridade das principais funcionalidades da aplicação.
 
