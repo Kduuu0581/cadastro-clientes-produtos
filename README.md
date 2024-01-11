@@ -1,24 +1,40 @@
-# cadastro-clientes-produtos
+# Projeto de Cadastro de Clientes e Produtos
 
-## Project setup
-```
-npm install
-```
+## Visão Geral
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Este projeto consiste em uma aplicação de cadastro simples para clientes e produtos, com a capacidade de associar produtos a clientes. A aplicação foi desenvolvida usando o framework Vue.js para o front-end.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Decisões e Organização do Código
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Estrutura de Diretórios
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- `src/`: Contém o código-fonte da aplicação.
+  - `assets/`: Recursos estáticos, como imagens e fontes.
+  - `components/`: Componentes Vue reutilizáveis.
+  - `views/`: Componentes específicos de páginas.
+  - `tests/`: Testes unitários usando Mocha e Chai.
+- `public/`: Contém arquivos estáticos que não precisam ser processados pelo Webpack.
+
+### Testes Unitários
+
+Os testes unitários foram implementados usando o Mocha e o Chai, localizados no diretório `tests/`. Eles garantem a integridade básica dos componentes e a renderização correta.
+
+## Instruções de Execução
+
+### Requisitos
+
+- Node.js (https://nodejs.org/)
+- npm (gerenciador de pacotes do Node.js)
+
+### Passos para Executar
+
+1. **Clone o Repositório:**
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+   
+2. Instale as Dependências:
+    npm install
+   
+4. Execute o Projeto
+    npm run serve
+    O projeto estará disponível em http://localhost:8080/ por padrão.
