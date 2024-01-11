@@ -30,9 +30,11 @@ Os testes unitários foram implementados usando o Mocha e o Chai, localizados no
 
 1. **Clone o Repositório:**
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+2. Entre na pasta:
    cd nome-do-repositorio
    
-2. Instale as Dependências:
+3. Instale as Dependências:
     npm install
    
 4. Execute o Projeto
